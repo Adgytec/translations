@@ -1,0 +1,45 @@
+name: Generate i18n Types
+
+on:
+  push:
+    # Optional: Restrict this to only run when JSON files or the script itself changes
+    # to save CI minutes on unrelated commits.
+    paths:
+      - 'src/en/**/*.json'
+      - 'package.json' 
+      - 'package-lock.json'
+
+# CRITICAL: This permission block is required for the bot to push commits back to your repo.
+permissions:
+  contents: write
+
+jobs:
+  update-types:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Required by the auto-commit action to work cleanly
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Adjust to match your project's target Node version
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci # Use `npm install` if you are not tracking a package-lock.json
+
+      - name: Run type generation
+        run: npm run gen-types
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(i18n): auto-update translation types"
+          # This ensures the bot ONLY commits the generated file, preventing accidental commits
+          file_pattern: 'types/i18n.d.ts'
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
