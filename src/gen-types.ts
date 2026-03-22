@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import prettier from "prettier";
 
 const translationsPath = path.resolve("src/en");
 const outputFile = path.resolve("types/i18n.d.ts");
@@ -32,9 +33,19 @@ for (const file of files) {
 
 output += `}\n`;
 
+// ✨ format with prettier using project config
 async function write() {
-  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-  fs.writeFileSync(outputFile, output);
+    // 🔴 THIS is what makes TS config work
+    const configPath = await prettier.resolveConfigFile();
+    const config = (configPath ? await prettier.resolveConfig(configPath) : null) ?? {};
+
+    const formatted = await prettier.format(output, {
+        ...config,
+        parser: "typescript",
+    });
+
+    fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+    fs.writeFileSync(outputFile, formatted);
 }
 
 write().then(() => console.log("✓ i18n resource types generated."));
