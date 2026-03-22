@@ -4,7 +4,8 @@
   "description": "translations for frontend apps",
   "main": "index.js",
   "scripts": {
-    "gen-types": "tsx src/gen-types.ts"
+    "gen-types": "tsx src/gen-types.ts",
+    "purge": "tsx src/purge.ts"
   },
   "repository": {
     "type": "git",
