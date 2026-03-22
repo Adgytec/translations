@@ -14,6 +14,7 @@ export interface I18nResources {
         resendCooldown: { remaining: string; remaining_plural: string };
         invalidConfirmAuthActionCode: string;
     };
+    "do-auth": { heading: string };
     labels: { email: string; code: string };
     settings: {
         popover: string;
