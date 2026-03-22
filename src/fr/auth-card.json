@@ -1,0 +1,24 @@
+{
+  "heading": "Commencer",
+  "description": "Entrez votre adresse e-mail pour recevoir un code de vérification à usage unique.",
+  "actionButton": {
+    "enabled": "Continuer",
+    "pending": "Envoi du code",
+    "completed": "Envoyé"
+  },
+  "confirmActionButton": {
+    "enabled": "Vérifier le code",
+    "pending": "Vérification",
+    "completed": "Terminé"
+  },
+  "resendCodeButton": {
+    "enabled": "Renvoyer le code",
+    "pending": "Renvoi",
+    "error": "Réessayez de renvoyer"
+  },
+  "resendCooldown": {
+    "remaining": "dans {{ count }} seconde.",
+    "remaining_plural": "dans {{ count }} secondes."
+  },
+  "invalidConfirmAuthActionCode": "Le code doit comporter entre 6 et 8 chiffres"
+}

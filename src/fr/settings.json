@@ -1,0 +1,28 @@
+{
+  "popover": "Paramètres",
+  "theme": {
+    "heading": "Personnaliser le thème de couleurs",
+    "description": "Ajustez le schéma de couleurs global de l'application.",
+    "selection": {
+      "system": "Système",
+      "light": "Clair",
+      "dark": "Sombre"
+    }
+  },
+  "shape": {
+    "heading": "Style des bords",
+    "description": "Basculer entre des bords arrondis et nets pour les composants.",
+    "selection": {
+      "sharp": "Net",
+      "round": "Arrondi"
+    }
+  },
+  "language": {
+    "heading": "Sélectionner la langue",
+    "description": "Cela affecte uniquement l’interface de l’application — pas votre contenu.",
+    "selection": {
+      "english": "Anglais",
+      "french": "Français"
+    }
+  }
+}
