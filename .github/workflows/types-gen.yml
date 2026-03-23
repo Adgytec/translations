@@ -2,7 +2,7 @@ name: Generate i18n Types
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 # CRITICAL: This permission block is required for the bot to push commits back to your repo.
 permissions:
