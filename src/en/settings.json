@@ -1,28 +1,28 @@
 {
-  "popover": "Settings",
-  "theme": {
-    "heading": "Personalize Color Theme",
-    "description": "Adjust the app's overall color scheme.",
-    "selection": {
-      "system": "System",
-      "light": "Light",
-      "dark": "Dark"
+    "popover": "Settings",
+    "theme": {
+        "heading": "Personalize Color Theme",
+        "description": "Adjust the app's overall color scheme.",
+        "selection": {
+            "system": "System",
+            "light": "Light",
+            "dark": "Dark"
+        }
+    },
+    "shape": {
+        "heading": "Edge Style",
+        "description": "Toggle between rounded and sharp component edges.",
+        "selection": {
+            "sharp": "Sharp",
+            "round": "Round"
+        }
+    },
+    "language": {
+        "heading": "Select Language",
+        "description": "This only affects the app interface — not your content.",
+        "selection": {
+            "english": "English",
+            "french": "French"
+        }
     }
-  },
-  "shape": {
-    "heading": "Edge Style",
-    "description": "Toggle between rounded and sharp component edges.",
-    "selection": {
-      "sharp": "Sharp",
-      "round": "Round"
-    }
-  },
-  "language": {
-    "heading": "Select Language",
-    "description": "This only affects the app interface — not your content.",
-    "selection": {
-      "english": "English",
-      "french": "French"
-    }
-  }
 }
