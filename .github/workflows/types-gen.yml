@@ -1,13 +1,8 @@
 name: Generate i18n Types
 
 on:
-  push:
-    # Optional: Restrict this to only run when JSON files or the script itself changes
-    # to save CI minutes on unrelated commits.
-    paths:
-      - 'src/**/*.json'
-      - 'package.json' 
-      - 'package-lock.json'
+  release:
+    types: [created]
 
 # CRITICAL: This permission block is required for the bot to push commits back to your repo.
 permissions:
