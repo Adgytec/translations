@@ -78,7 +78,7 @@ for (const file of files) {
 output += `}\n`;
 
 // ✨ format with Biome CLI
-async function write() {
+function write() {
     try {
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
 
