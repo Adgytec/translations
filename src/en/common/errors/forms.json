@@ -1,0 +1,24 @@
+{
+    "missing": "This field is required.",
+    "overflow": "The value must be less than or equal to {{max}}.",
+    "underflow": "The value must be greater than or equal to {{min}}.",
+    "length": "The value length must be between {{min}} and {{max}} characters.",
+    "invalid": "The value provided is invalid.",
+    "unknown": "An unknown validation error occurred.",
+
+    "invalid-value": "The value provided is invalid.",
+    "invalid-enum-value": "The value must be one of: {{possibleValues}}.",
+    "require-https": "The URL must use HTTPS.",
+    "missing-host": "The URL must include a valid host.",
+    "contains-path": "The URL must not contain a path.",
+    "contains-query": "The URL must not contain query parameters.",
+    "contains-fragment": "The URL must not contain a fragment.",
+    "absolute-url": "The URL must be absolute.",
+    "nil-id": "The ID cannot be empty or nil.",
+    "invalid-email": "The email address is invalid.",
+    "missing-mx-records": "The email domain does not have valid MX records.",
+    "not-digit": "The value must contain only digits.",
+    "not-base64-url-encoded": "The value must be base64 URL encoded.",
+    "invalid-url": "The URL provided is invalid.",
+    "null-value": "This field cannot be null."
+}
