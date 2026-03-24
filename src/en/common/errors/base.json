@@ -1,0 +1,54 @@
+{
+    "invalid-api-key": "The provided API key is invalid.",
+    "user-not-found": "The specified user could not be found.",
+    "jwt-not-acceptable": "The JWT token is not acceptable.",
+    "invalid-signed-url": "The signed URL is invalid or expired.",
+    "hash-mismatch": "The provided hash does not match.",
+    "invalid-auth-header-value": "The authorization header value is invalid.",
+    "unsupported-auth-scheme": "The authentication scheme is not supported.",
+    "bad-org-status": "The organization status is not valid.",
+    "user-not-exists-in-organization-management": "The user does not exist in organization management.",
+    "user-not-exists-in-organization": "The user does not exist in the organization.",
+    "user-disabled": "The user account is disabled.",
+    "token-not-found": "The authentication token was not found.",
+
+    "invalid-id": "The provided ID is invalid.",
+    "route-not-found": "The requested route was not found.",
+    "method-not-allowed": "The HTTP method is not allowed for this route.",
+    "network-error": "A network error occurred. Please try again.",
+    "zod-error": "Validation failed for the provided data.",
+
+    "self-permission-mismatch": "Permission mismatch for '{{permission}}' on '{{key}}'. Required: '{{required}}', but got: '{{got}}'.",
+    "invalid-actor": "The actor '{{currentActor}}' is not supported. Supported actors are: {{supportedActors}}.",
+    "permission-explicitly-denied": "The permission '{{deniedPermission}}' has been explicitly denied.",
+    "missing-permission": "The required permission '{{missingPermission}}' is missing.",
+
+    "invalid-multipart-upload-part-number": "The provided multipart upload part number is invalid.",
+    "object-not-found": "The requested media object was not found.",
+    "media-too-large": "The file '{{mediaID}}' is too large ({{currentSize, filesize}}). Maximum allowed size is {{maxSupportedSize, filesize}}.",
+    "media-items-limit-exceeded": "The number of media items ({{currentLength, number}}) exceeds the maximum allowed ({{maxItemsSupported, number}}).",
+    "upload-already-completed": "The upload has already been completed.",
+    "unsupported-object-uploaded": "The uploaded object type is not supported.",
+    "complete-multipart-upload-called-too-soon": "A complete multipart upload operation is already in progress for this upload.",
+    "singlepart-upload-failed": "Single part upload failed for media '{{mediaID}}'.",
+    "multipart-part-upload-failed": "Multipart upload failed for media '{{mediaID}}' at part number {{partNumber, number}}.",
+    "missing-etag-value": "Missing ETag value for media '{{mediaID}}' at part number {{partNumber, number}}.",
+
+    "invalid-cursor-value": "The provided cursor value is invalid.",
+
+    "invalid-request-body": "The request body is invalid.",
+    "unknown-field-in-request-body": "The request body contains unknown or unsupported fields.",
+    "empty-request-body": "The request body cannot be empty.",
+    "request-body-too-large": "The request size ({{limit, filesize}}) exceeds the allowed limit.",
+
+    "malformed-response-body": "The server returned a malformed response body.",
+    "malformed-json-from-server": "The server returned invalid JSON.",
+    "invalid-response-shape": "The server response format is invalid.",
+    "unknown-server-error": "An unknown error occurred on the server.",
+    "internal-server-error": "An internal server error occurred.",
+
+    "unexpected-error": "Something went wrong. Please try again later.",
+    "auth-error": "Authentication failed. Please verify your credentials and try again.",
+    "authorization-error": "You are not authorized to perform this action.",
+    "media-upload-error": "Something went wrong during media upload. Please try again."
+}

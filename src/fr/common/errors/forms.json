@@ -1,0 +1,26 @@
+{
+    "missing": "Ce champ est requis.",
+    "overflow-number": "La valeur doit être inférieure ou égale à {{max, number}}.",
+    "underflow-number": "La valeur doit être supérieure ou égale à {{min, number}}.",
+    "overflow-date": "La date doit être antérieure ou égale au {{max, datetime}}.",
+    "underflow-date": "La date doit être postérieure ou égale au {{min, datetime}}.",
+    "length": "La longueur doit être comprise entre {{min, number}} et {{max, number}} caractères.",
+    "invalid": "La valeur fournie est invalide.",
+    "unknown": "Une erreur de validation inconnue s'est produite.",
+
+    "invalid-value": "La valeur fournie est invalide.",
+    "invalid-enum-value": "La valeur doit être l'une des suivantes : {{possibleValues}}.",
+    "require-https": "L'URL doit utiliser HTTPS.",
+    "missing-host": "L'URL doit inclure un hôte valide.",
+    "contains-path": "L'URL ne doit pas contenir de chemin.",
+    "contains-query": "L'URL ne doit pas contenir de paramètres de requête.",
+    "contains-fragment": "L'URL ne doit pas contenir de fragment.",
+    "absolute-url": "L'URL doit être absolue.",
+    "nil-id": "L'identifiant ne peut pas être vide ou nul.",
+    "invalid-email": "L'adresse e-mail est invalide.",
+    "missing-mx-records": "Le domaine de l'e-mail ne possède pas d'enregistrements MX valides.",
+    "not-digit": "La valeur doit contenir uniquement des chiffres.",
+    "not-base64-url-encoded": "La valeur doit être encodée en base64 URL.",
+    "invalid-url": "L'URL fournie est invalide.",
+    "null-value": "Ce champ ne peut pas être nul."
+}
