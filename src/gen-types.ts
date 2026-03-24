@@ -85,14 +85,8 @@ function write() {
         // write raw output first
         fs.writeFileSync(outputFile, output);
 
-        // resolve local biome binary (cross-platform)
-        const biomeCmd =
-            process.platform === "win32"
-                ? "node_modules\\.bin\\biome"
-                : "./node_modules/.bin/biome";
-
-        // run biome formatter
-        execSync(`${biomeCmd} format "${outputFile}" --write`, {
+        // run biome formatter using npx for robust path resolution
+        execSync(`npx biome format "${outputFile}" --write`, {
             stdio: "inherit",
         });
 
