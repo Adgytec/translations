@@ -1,23 +1,21 @@
 {
-  "invalid-api-key": "The provided API key is invalid.",
-  "user-not-found": "The specified user could not be found.",
-  "jwt-not-acceptable": "The JWT token is not acceptable.",
-  "invalid-signed-url": "The signed URL is invalid or expired.",
-  "hash-mismatch": "The provided hash does not match.",
-  "invalid-auth-header-value": "The authorization header value is invalid.",
-  "unsupported-auth-scheme": "The authentication scheme is not supported.",
-  "bad-org-status": "The organization status is not valid.",
-  "user-not-exists-in-organization-management":
-    "The user does not exist in organization management.",
-  "user-not-exists-in-organization":
-    "The user does not exist in the organization.",
-  "user-disabled": "The user account is disabled.",
-  "token-not-found": "The authentication token was not found.",
+    "invalid-api-key": "The provided API key is invalid.",
+    "user-not-found": "The specified user could not be found.",
+    "jwt-not-acceptable": "The JWT token is not acceptable.",
+    "invalid-signed-url": "The signed URL is invalid or expired.",
+    "hash-mismatch": "The provided hash does not match.",
+    "invalid-auth-header-value": "The authorization header value is invalid.",
+    "unsupported-auth-scheme": "The authentication scheme is not supported.",
+    "bad-org-status": "The organization status is not valid.",
+    "user-not-exists-in-organization-management": "The user does not exist in organization management.",
+    "user-not-exists-in-organization": "The user does not exist in the organization.",
+    "user-disabled": "The user account is disabled.",
+    "token-not-found": "The authentication token was not found.",
 
- "invalid-id": "The provided ID is invalid.",
-  "route-not-found": "The requested route was not found.",
-  "method-not-allowed": "The HTTP method is not allowed for this route.",
-  "network-error": "A network error occurred. Please try again.",
-  "unexpected-error": "An unexpected error occurred.",
-  "zod-error": "Validation failed for the provided data."
-};
+    "invalid-id": "The provided ID is invalid.",
+    "route-not-found": "The requested route was not found.",
+    "method-not-allowed": "The HTTP method is not allowed for this route.",
+    "network-error": "A network error occurred. Please try again.",
+    "unexpected-error": "An unexpected error occurred.",
+    "zod-error": "Validation failed for the provided data."
+}

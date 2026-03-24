@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "gen-types": "tsx src/gen-types.ts",
-        "purge": "tsx src/purge.ts"
+        "purge": "tsx src/purge.ts",
+        "lint": "biome check .",
+        "lint:fix": "biome check --write .",
+        "format": "biome format --write ."
     },
     "repository": {
         "type": "git",
@@ -20,8 +23,8 @@
     },
     "homepage": "https://github.com/Adgytec/translations#readme",
     "devDependencies": {
+        "@biomejs/biome": "^2.4.8",
         "@types/node": "^25.5.0",
-        "prettier": "^3.8.1",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3"
     }

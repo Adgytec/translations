@@ -1,6 +1,6 @@
+import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
-import prettier from "prettier";
 
 const translationsPath = path.resolve("src/en");
 const outputFile = path.resolve("types/i18n.d.ts");
@@ -8,7 +8,7 @@ const outputFile = path.resolve("types/i18n.d.ts");
 // 🔥 Recursive file reader
 function getAllJsonFiles(
     dir: string,
-    base = "",
+    base = ""
 ): {
     fullPath: string;
     namespace: string;
@@ -37,10 +37,19 @@ function getAllJsonFiles(
 }
 
 // 🔧 Better type generator
-function createType(obj: any): string {
+type JsonValue =
+    | string
+    | number
+    | boolean
+    | null
+    | JsonValue[]
+    | { [key: string]: JsonValue };
+
+function createType(obj: JsonValue): string {
     if (typeof obj === "string") return "string";
     if (typeof obj === "number") return "number";
     if (typeof obj === "boolean") return "boolean";
+    if (obj === null) return "null";
 
     if (Array.isArray(obj)) {
         if (obj.length === 0) return "unknown[]";
@@ -68,19 +77,33 @@ for (const file of files) {
 
 output += `}\n`;
 
-// ✨ format with prettier using project config
+// ✨ format with Biome CLI
 async function write() {
-    const configPath = await prettier.resolveConfigFile();
-    const config =
-        (configPath ? await prettier.resolveConfig(configPath) : null) ?? {};
+    try {
+        fs.mkdirSync(path.dirname(outputFile), { recursive: true });
 
-    const formatted = await prettier.format(output, {
-        ...config,
-        parser: "typescript",
-    });
+        // write raw output first
+        fs.writeFileSync(outputFile, output);
 
-    fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-    fs.writeFileSync(outputFile, formatted);
+        // resolve local biome binary (cross-platform)
+        const biomeCmd =
+            process.platform === "win32"
+                ? "node_modules\\.bin\\biome"
+                : "./node_modules/.bin/biome";
+
+        // run biome formatter
+        execSync(`${biomeCmd} format "${outputFile}" --write`, {
+            stdio: "inherit",
+        });
+
+        console.log("✓ i18n resource types generated (Biome formatted).");
+    } catch (err) {
+        console.error("❌ Formatting failed:", err);
+
+        // fallback: ensure file still exists
+        fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+        fs.writeFileSync(outputFile, output);
+    }
 }
 
-write().then(() => console.log("✓ i18n resource types generated."));
+write();

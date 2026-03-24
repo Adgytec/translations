@@ -60,7 +60,7 @@ async function run() {
         .filter((dirent) => dirent.isDirectory())
         .map((dirent) => dirent.name);
 
-    let allTasks: Promise<void>[] = [];
+    const allTasks: Promise<void>[] = [];
 
     for (const lang of langFolders) {
         const langPath = path.join(TRANSLATIONS_DIR, lang);
@@ -80,7 +80,7 @@ async function run() {
     await Promise.all(allTasks);
 
     console.log(
-        "\n✅ CDN Purge complete. Changes should reflect globally within minutes.",
+        "\n✅ CDN Purge complete. Changes should reflect globally within minutes."
     );
 }
 
