@@ -1,0 +1,54 @@
+{
+    "invalid-api-key": "La clé API fournie est invalide.",
+    "user-not-found": "L'utilisateur spécifié est introuvable.",
+    "jwt-not-acceptable": "Le jeton JWT n'est pas acceptable.",
+    "invalid-signed-url": "L'URL signée est invalide ou expirée.",
+    "hash-mismatch": "Le hachage fourni ne correspond pas.",
+    "invalid-auth-header-value": "La valeur de l'en-tête d'autorisation est invalide.",
+    "unsupported-auth-scheme": "Le schéma d'authentification n'est pas pris en charge.",
+    "bad-org-status": "Le statut de l'organisation n'est pas valide.",
+    "user-not-exists-in-organization-management": "L'utilisateur n'existe pas dans la gestion de l'organisation.",
+    "user-not-exists-in-organization": "L'utilisateur n'existe pas dans l'organisation.",
+    "user-disabled": "Le compte utilisateur est désactivé.",
+    "token-not-found": "Le jeton d'authentification est introuvable.",
+
+    "invalid-id": "L'identifiant fourni est invalide.",
+    "route-not-found": "La route demandée est introuvable.",
+    "method-not-allowed": "La méthode HTTP n'est pas autorisée pour cette route.",
+    "network-error": "Une erreur réseau s'est produite. Veuillez réessayer.",
+    "zod-error": "La validation des données a échoué.",
+
+    "self-permission-mismatch": "Incohérence de permission pour '{{permission}}' sur '{{key}}'. Requis : '{{required}}', obtenu : '{{got}}'.",
+    "invalid-actor": "L'acteur '{{currentActor}}' n'est pas pris en charge. Acteurs supportés : {{supportedActors}}.",
+    "permission-explicitly-denied": "La permission '{{deniedPermission}}' a été explicitement refusée.",
+    "missing-permission": "La permission requise '{{missingPermission}}' est manquante.",
+
+    "invalid-multipart-upload-part-number": "Le numéro de partie du téléversement multipart est invalide.",
+    "object-not-found": "L'objet média demandé est introuvable.",
+    "media-too-large": "Le média '{{mediaID}}' dépasse la taille maximale autorisée. Taille actuelle : {{currentSize}}, taille maximale : {{maxSupportedSize}}.",
+    "media-items-limit-exceeded": "Le nombre d'éléments média ({{currentLength}}) dépasse la limite autorisée ({{maxItemsSupported}}).",
+    "upload-already-completed": "Le téléversement est déjà terminé.",
+    "unsupported-object-uploaded": "Le type d'objet téléversé n'est pas pris en charge.",
+    "complete-multipart-upload-called-too-soon": "Une opération de finalisation du téléversement multipart est déjà en cours pour ce téléversement.",
+    "singlepart-upload-failed": "Le téléversement en une seule partie a échoué pour le média '{{mediaID}}'.",
+    "multipart-part-upload-failed": "Le téléversement multipart a échoué pour le média '{{mediaID}}' à la partie numéro {{partNumber}}.",
+    "missing-etag-value": "Valeur ETag manquante pour le média '{{mediaID}}' à la partie numéro {{partNumber}}.",
+
+    "invalid-cursor-value": "La valeur du curseur fournie est invalide.",
+
+    "invalid-request-body": "Le corps de la requête est invalide.",
+    "unknown-field-in-request-body": "Le corps de la requête contient des champs inconnus ou non pris en charge.",
+    "empty-request-body": "Le corps de la requête ne peut pas être vide.",
+    "request-body-too-large": "Le corps de la requête dépasse la taille maximale autorisée de {{limit}}.",
+
+    "malformed-response-body": "Le serveur a renvoyé un corps de réponse mal formé.",
+    "malformed-json-from-server": "Le serveur a renvoyé un JSON invalide.",
+    "invalid-response-shape": "Le format de la réponse du serveur est invalide.",
+    "unknown-server-error": "Une erreur inconnue s'est produite sur le serveur.",
+    "internal-server-error": "Une erreur interne du serveur s'est produite.",
+
+    "unexpected-error": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "auth-error": "Échec de l'authentification. Veuillez vérifier vos identifiants et réessayer.",
+    "authorization-error": "Vous n'êtes pas autorisé à effectuer cette action.",
+    "media-upload-error": "Une erreur s'est produite lors du téléversement du média. Veuillez réessayer."
+}

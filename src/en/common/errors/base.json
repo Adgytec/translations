@@ -16,7 +16,6 @@
     "route-not-found": "The requested route was not found.",
     "method-not-allowed": "The HTTP method is not allowed for this route.",
     "network-error": "A network error occurred. Please try again.",
-    "unexpected-error": "An unexpected error occurred.",
     "zod-error": "Validation failed for the provided data.",
 
     "self-permission-mismatch": "Permission mismatch for '{{permission}}' on '{{key}}'. Required: '{{required}}', but got: '{{got}}'.",
@@ -46,5 +45,10 @@
     "malformed-json-from-server": "The server returned invalid JSON.",
     "invalid-response-shape": "The server response format is invalid.",
     "unknown-server-error": "An unknown error occurred on the server.",
-    "internal-server-error": "An internal server error occurred."
+    "internal-server-error": "An internal server error occurred.",
+
+    "unexpected-error": "Something went wrong. Please try again later.",
+    "auth-error": "Authentication failed. Please verify your credentials and try again.",
+    "authorization-error": "You are not authorized to perform this action.",
+    "media-upload-error": "Something went wrong during media upload. Please try again."
 }
