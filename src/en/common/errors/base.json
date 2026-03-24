@@ -25,21 +25,21 @@
 
     "invalid-multipart-upload-part-number": "The provided multipart upload part number is invalid.",
     "object-not-found": "The requested media object was not found.",
-    "media-too-large": "The media '{{mediaID}}' exceeds the maximum allowed size. Current size: {{currentSize}}, maximum supported size: {{maxSupportedSize}}.",
-    "media-items-limit-exceeded": "The number of media items ({{currentLength}}) exceeds the maximum allowed ({{maxItemsSupported}}).",
+    "media-too-large": "The file '{{mediaID}}' is too large ({{currentSize, filesize}}). Maximum allowed size is {{maxSupportedSize, filesize}}.",
+    "media-items-limit-exceeded": "The number of media items ({{currentLength, number}}) exceeds the maximum allowed ({{maxItemsSupported, number}}).",
     "upload-already-completed": "The upload has already been completed.",
     "unsupported-object-uploaded": "The uploaded object type is not supported.",
     "complete-multipart-upload-called-too-soon": "A complete multipart upload operation is already in progress for this upload.",
     "singlepart-upload-failed": "Single part upload failed for media '{{mediaID}}'.",
-    "multipart-part-upload-failed": "Multipart upload failed for media '{{mediaID}}' at part number {{partNumber}}.",
-    "missing-etag-value": "Missing ETag value for media '{{mediaID}}' at part number {{partNumber}}.",
+    "multipart-part-upload-failed": "Multipart upload failed for media '{{mediaID}}' at part number {{partNumber, number}}.",
+    "missing-etag-value": "Missing ETag value for media '{{mediaID}}' at part number {{partNumber, number}}.",
 
     "invalid-cursor-value": "The provided cursor value is invalid.",
 
     "invalid-request-body": "The request body is invalid.",
     "unknown-field-in-request-body": "The request body contains unknown or unsupported fields.",
     "empty-request-body": "The request body cannot be empty.",
-    "request-body-too-large": "The request body exceeds the maximum allowed size of {{limit}}.",
+    "request-body-too-large": "The request size ({{limit, filesize}}) exceeds the allowed limit.",
 
     "malformed-response-body": "The server returned a malformed response body.",
     "malformed-json-from-server": "The server returned invalid JSON.",

@@ -25,21 +25,21 @@
 
     "invalid-multipart-upload-part-number": "Le numéro de partie du téléversement multipart est invalide.",
     "object-not-found": "L'objet média demandé est introuvable.",
-    "media-too-large": "Le média '{{mediaID}}' dépasse la taille maximale autorisée. Taille actuelle : {{currentSize}}, taille maximale : {{maxSupportedSize}}.",
-    "media-items-limit-exceeded": "Le nombre d'éléments média ({{currentLength}}) dépasse la limite autorisée ({{maxItemsSupported}}).",
+    "media-too-large": "Le fichier '{{mediaID}}' est trop volumineux ({{currentSize, filesize}}). La taille maximale autorisée est de {{maxSupportedSize, filesize}}.",
+    "media-items-limit-exceeded": "Le nombre d'éléments média ({{currentLength, number}}) dépasse la limite autorisée ({{maxItemsSupported, number}}).",
     "upload-already-completed": "Le téléversement est déjà terminé.",
     "unsupported-object-uploaded": "Le type d'objet téléversé n'est pas pris en charge.",
     "complete-multipart-upload-called-too-soon": "Une opération de finalisation du téléversement multipart est déjà en cours pour ce téléversement.",
     "singlepart-upload-failed": "Le téléversement en une seule partie a échoué pour le média '{{mediaID}}'.",
-    "multipart-part-upload-failed": "Le téléversement multipart a échoué pour le média '{{mediaID}}' à la partie numéro {{partNumber}}.",
-    "missing-etag-value": "Valeur ETag manquante pour le média '{{mediaID}}' à la partie numéro {{partNumber}}.",
+    "multipart-part-upload-failed": "Le téléversement multipart a échoué pour le média '{{mediaID}}' à la partie numéro {{partNumber, number}}.",
+    "missing-etag-value": "Valeur ETag manquante pour le média '{{mediaID}}' à la partie numéro {{partNumber, number}}.",
 
     "invalid-cursor-value": "La valeur du curseur fournie est invalide.",
 
     "invalid-request-body": "Le corps de la requête est invalide.",
     "unknown-field-in-request-body": "Le corps de la requête contient des champs inconnus ou non pris en charge.",
     "empty-request-body": "Le corps de la requête ne peut pas être vide.",
-    "request-body-too-large": "Le corps de la requête dépasse la taille maximale autorisée de {{limit}}.",
+    "request-body-too-large": "La taille de la requête ({{limit, filesize}}) dépasse la limite autorisée.",
 
     "malformed-response-body": "Le serveur a renvoyé un corps de réponse mal formé.",
     "malformed-json-from-server": "Le serveur a renvoyé un JSON invalide.",

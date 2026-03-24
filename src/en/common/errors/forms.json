@@ -1,8 +1,10 @@
 {
     "missing": "This field is required.",
-    "overflow": "The value must be less than or equal to {{max}}.",
-    "underflow": "The value must be greater than or equal to {{min}}.",
-    "length": "The value length must be between {{min}} and {{max}} characters.",
+    "overflow_number": "The value must be less than or equal to {{max, number}}.",
+    "underflow_number": "The value must be greater than or equal to {{min, number}}.",
+    "overflow_date": "The date must be on or before {{max, datetime}}.",
+    "underflow_date": "The date must be on or after {{min, datetime}}.",
+    "length": "The value length must be between {{min, number}} and {{max, number}} characters.",
     "invalid": "The value provided is invalid.",
     "unknown": "An unknown validation error occurred.",
 

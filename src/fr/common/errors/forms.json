@@ -1,8 +1,10 @@
 {
     "missing": "Ce champ est requis.",
-    "overflow": "La valeur doit être inférieure ou égale à {{max}}.",
-    "underflow": "La valeur doit être supérieure ou égale à {{min}}.",
-    "length": "La longueur doit être comprise entre {{min}} et {{max}} caractères.",
+    "overflow_number": "La valeur doit être inférieure ou égale à {{max, number}}.",
+    "underflow_number": "La valeur doit être supérieure ou égale à {{min, number}}.",
+    "overflow_date": "La date doit être antérieure ou égale au {{max, datetime}}.",
+    "underflow_date": "La date doit être postérieure ou égale au {{min, datetime}}.",
+    "length": "La longueur doit être comprise entre {{min, number}} et {{max, number}} caractères.",
     "invalid": "La valeur fournie est invalide.",
     "unknown": "Une erreur de validation inconnue s'est produite.",
 
