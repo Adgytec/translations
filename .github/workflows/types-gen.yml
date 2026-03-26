@@ -17,6 +17,7 @@ jobs:
         with:
           # Required by the auto-commit action to work cleanly
           fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -38,6 +39,7 @@ jobs:
           file_pattern: 'types/i18n.d.ts'
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          branch: ${{ github.event.repository.default_branch }}
 
       # 🚀 NEW STEP: Purge the CDN cache after the new types are pushed
       - name: Purge jsDelivr CDN Cache
