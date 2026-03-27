@@ -1,7 +1,7 @@
 // AUTO-GENERATED FILE — DO NOT EDIT
 
 export interface I18nResources {
-    "auth-card": {
+    "accounts/auth-card": {
         heading: string;
         description: string;
         actionButton: {
@@ -24,6 +24,9 @@ export interface I18nResources {
             remaining_plural: string;
         };
         invalidConfirmAuthActionCode: string;
+    };
+    "common/do-auth": {
+        heading: string;
     };
     "common/errors/base": {
         "invalid-api-key": string;
@@ -97,14 +100,11 @@ export interface I18nResources {
         "invalid-url": string;
         "null-value": string;
     };
-    "do-auth": {
-        heading: string;
-    };
-    labels: {
+    "common/labels": {
         email: string;
         code: string;
     };
-    settings: {
+    "common/settings": {
         popover: string;
         theme: {
             heading: string;
@@ -132,7 +132,7 @@ export interface I18nResources {
             };
         };
     };
-    utils: {
+    "common/utils": {
         unexpectedError: string;
         back: string;
     };
