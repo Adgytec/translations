@@ -1,6 +1,7 @@
 {
     "unexpectedError": "Something went wrong, try refreshing this page.",
     "back": "Back",
+    "user": "User",
     "signout": {
         "enabled": "Sign out",
         "pending": "Signing out...",
