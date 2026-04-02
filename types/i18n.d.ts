@@ -50,6 +50,7 @@ export interface I18nResources {
         "invalid-actor": string;
         "permission-explicitly-denied": string;
         "missing-permission": string;
+        "limit-exceeded": string;
         "invalid-multipart-upload-part-number": string;
         "object-not-found": string;
         "media-too-large": string;
@@ -135,5 +136,11 @@ export interface I18nResources {
     "common/utils": {
         unexpectedError: string;
         back: string;
+        user: string;
+        signout: {
+            enabled: string;
+            pending: string;
+            completed: string;
+        };
     };
 }
