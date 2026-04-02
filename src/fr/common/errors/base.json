@@ -23,6 +23,8 @@
     "permission-explicitly-denied": "La permission '{{deniedPermission}}' a été explicitement refusée.",
     "missing-permission": "La permission requise '{{missingPermission}}' est manquante.",
 
+    "limit-exceeded": "Limite dépassée pour {{action}} : la limite autorisée est de {{limit}}, mais la valeur actuelle est de {{currentValue}}.",
+
     "invalid-multipart-upload-part-number": "Le numéro de partie du téléversement multipart est invalide.",
     "object-not-found": "L'objet média demandé est introuvable.",
     "media-too-large": "Le fichier '{{mediaID}}' est trop volumineux ({{currentSize, filesize}}). La taille maximale autorisée est de {{maxSupportedSize, filesize}}.",
