@@ -23,7 +23,7 @@
     "permission-explicitly-denied": "La permission '{{deniedPermission}}' a été explicitement refusée.",
     "missing-permission": "La permission requise '{{missingPermission}}' est manquante.",
 
-    "limit-exceeded": "Limite dépassée pour {{action}} : la limite autorisée est de {{limit}}, mais la valeur actuelle est de {{currentValue}}.",
+    "limit-exceeded": "Limite dépassée pour {{action}} : la limite autorisée est de {{limit, number}}, mais la valeur actuelle est de {{currentValue, number}}.",
 
     "invalid-multipart-upload-part-number": "Le numéro de partie du téléversement multipart est invalide.",
     "object-not-found": "L'objet média demandé est introuvable.",

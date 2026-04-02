@@ -23,7 +23,7 @@
     "permission-explicitly-denied": "The permission '{{deniedPermission}}' has been explicitly denied.",
     "missing-permission": "The required permission '{{missingPermission}}' is missing.",
 
-    "limit-exceeded": "Limit exceeded for {{action}}: allowed limit is {{limit}}, but current value is {{currentValue}}.",
+    "limit-exceeded": "Limit exceeded for {{action}}: allowed limit is {{limit, number}}, but current value is {{currentValue, number}}.",
 
     "invalid-multipart-upload-part-number": "The provided multipart upload part number is invalid.",
     "object-not-found": "The requested media object was not found.",
