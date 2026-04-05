@@ -25,6 +25,14 @@ export interface I18nResources {
         };
         invalidConfirmAuthActionCode: string;
     };
+    "accounts/core": {
+        "edit-profile": string;
+        "social-links": {
+            heading: string;
+            empty: string;
+        };
+        "user-info": string;
+    };
     "common/do-auth": {
         heading: string;
     };
@@ -104,9 +112,21 @@ export interface I18nResources {
     "common/labels": {
         email: string;
         code: string;
+        birthday: {
+            heading: string;
+            empty: string;
+        };
+        about: {
+            heading: string;
+            empty: string;
+        };
+        name: {
+            heading: string;
+            empty: string;
+        };
     };
     "common/settings": {
-        popover: string;
+        heading: string;
         theme: {
             heading: string;
             description: string;
