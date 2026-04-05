@@ -1,4 +1,16 @@
 {
     "email": "E-mail",
-    "code": "Code"
+    "code": "Code",
+    "birthday": {
+        "heading": "Date de naissance",
+        "empty": "Date de naissance non renseignée"
+    },
+    "about": {
+        "heading": "À propos",
+        "empty": "À propos non renseigné"
+    },
+    "name": {
+        "heading": "Nom",
+        "empty": "Nom non renseigné"
+    }
 }
