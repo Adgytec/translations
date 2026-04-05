@@ -1,4 +1,16 @@
 {
     "email": "E-mail",
-    "code": "Code"
+    "code": "Code",
+    "birthday": {
+        "heading": "Birthday",
+        "empty": "DOB not added"
+    },
+    "about": {
+        "heading": "About",
+        "empty": "About not added"
+    },
+    "name": {
+        "heading": "Name",
+        "empty": "Name not added"
+    }
 }

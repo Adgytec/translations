@@ -1,5 +1,5 @@
 {
-    "popover": "Paramètres",
+    "heading": "Paramètres",
     "theme": {
         "heading": "Personnaliser le thème de couleurs",
         "description": "Ajustez le schéma de couleurs global de l'application.",

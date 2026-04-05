@@ -1,5 +1,5 @@
 {
-    "popover": "Settings",
+    "heading": "Settings",
     "theme": {
         "heading": "Personalize Color Theme",
         "description": "Adjust the app's overall color scheme.",
