@@ -118,19 +118,20 @@ export interface I18nResources {
         theme: {
             heading: string;
             description: string;
-            selection: {
-                system: string;
-                light: string;
-                dark: string;
-            };
+            system: string;
+            light: string;
+            dark: string;
         };
-        shape: {
+        contrast: {
             heading: string;
             description: string;
-            selection: {
-                sharp: string;
-                round: string;
-            };
+            standard: string;
+            medium: string;
+            high: string;
+        };
+        monochrome: {
+            heading: string;
+            description: string;
         };
         language: {
             heading: string;
