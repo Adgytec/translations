@@ -4,24 +4,12 @@ export interface I18nResources {
     "accounts/auth-card": {
         heading: string;
         description: string;
-        actionButton: {
-            enabled: string;
-            pending: string;
-            completed: string;
-        };
-        confirmActionButton: {
-            enabled: string;
-            pending: string;
-            completed: string;
-        };
-        resendCodeButton: {
-            enabled: string;
-            pending: string;
-            error: string;
-        };
+        actionButton: string;
+        confirmActionButton: string;
+        resendCodeButton: string;
         resendCooldown: {
-            remaining: string;
-            remaining_plural: string;
+            remaining_one: string;
+            remaining_other: string;
         };
         invalidConfirmAuthActionCode: string;
     };
@@ -157,10 +145,6 @@ export interface I18nResources {
         unexpectedError: string;
         back: string;
         user: string;
-        signout: {
-            enabled: string;
-            pending: string;
-            completed: string;
-        };
+        signout: string;
     };
 }

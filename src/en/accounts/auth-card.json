@@ -1,24 +1,12 @@
 {
     "heading": "Get Started",
     "description": "Enter your email address to receive a one-time verification code.",
-    "actionButton": {
-        "enabled": "Continue",
-        "pending": "Sending Code",
-        "completed": "Sent"
-    },
-    "confirmActionButton": {
-        "enabled": "Verify code",
-        "pending": "Verifying",
-        "completed": "Done"
-    },
-    "resendCodeButton": {
-        "enabled": "Resend code",
-        "pending": "Resending",
-        "error": "Try resending again"
-    },
+    "actionButton": "Continue",
+    "confirmActionButton": "Verify code",
+    "resendCodeButton": "Resend code",
     "resendCooldown": {
-        "remaining": "in {{ count }} second.",
-        "remaining_plural": "in {{ count }} seconds."
+        "remaining_one": "in {{ count }} second.",
+        "remaining_other": "in {{ count }} seconds."
     },
     "invalidConfirmAuthActionCode": "Code should be between 6-8 digits"
 }
