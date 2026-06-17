@@ -31,12 +31,15 @@ async function purgeCache(filePath: string) {
 
     try {
         const response = await fetch(purgeUrl);
-        const data = await response.json();
+
+        const text = await response.text();
 
         if (response.ok) {
             console.log(`✓ Purged: ${filePath}`);
+            console.log(text);
         } else {
-            console.error(`❌ Failed: ${filePath}`, data);
+            console.error(`❌ Failed: ${filePath}`);
+            console.error(text);
         }
     } catch (error) {
         console.error(`❌ Network error: ${filePath}`, error);

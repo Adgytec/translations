@@ -22,8 +22,8 @@
         "heading": "Language",
         "description": "This only affects the app interface — not your content.",
         "selection": {
-            "english": "English",
-            "french": "French"
+            "en": "English",
+            "fr": "French"
         }
     }
 }

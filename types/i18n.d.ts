@@ -137,8 +137,8 @@ export interface I18nResources {
             heading: string;
             description: string;
             selection: {
-                english: string;
-                french: string;
+                en: string;
+                fr: string;
             };
         };
     };

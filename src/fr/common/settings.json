@@ -22,8 +22,8 @@
         "heading": "Langue",
         "description": "Cela affecte uniquement l’interface de l’application — pas votre contenu.",
         "selection": {
-            "english": "Anglais",
-            "french": "Français"
+            "en": "Anglais",
+            "fr": "Français"
         }
     }
 }
