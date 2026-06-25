@@ -37,6 +37,9 @@ export interface I18nResources {
         "user-not-exists-in-organization": string;
         "user-disabled": string;
         "token-not-found": string;
+        "invalid-jwt": string;
+        "invalid-session": string;
+        "token-expired": string;
         "invalid-id": string;
         "route-not-found": string;
         "method-not-allowed": string;

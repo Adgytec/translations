@@ -11,6 +11,9 @@
     "user-not-exists-in-organization": "The user does not exist in the organization.",
     "user-disabled": "The user account is disabled.",
     "token-not-found": "The authentication token was not found.",
+    "invalid-jwt": "Invalid authentication token.",
+    "invalid-session": "Your session is invalid.",
+    "token-expired": "Your session has expired. Please sign in again.",
 
     "invalid-id": "The provided ID is invalid.",
     "route-not-found": "The requested route was not found.",

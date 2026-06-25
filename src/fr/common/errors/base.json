@@ -11,6 +11,9 @@
     "user-not-exists-in-organization": "L'utilisateur n'existe pas dans l'organisation.",
     "user-disabled": "Le compte utilisateur est désactivé.",
     "token-not-found": "Le jeton d'authentification est introuvable.",
+    "invalid-jwt": "Jeton d'authentification invalide.",
+    "invalid-session": "Votre session est invalide.",
+    "token-expired": "Votre session a expiré. Veuillez vous reconnecter.",
 
     "invalid-id": "L'identifiant fourni est invalide.",
     "route-not-found": "La route demandée est introuvable.",
