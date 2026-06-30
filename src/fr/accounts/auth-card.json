@@ -1,11 +1,12 @@
 {
-    "heading": "Commencer",
-    "description": "Entrez votre adresse e-mail pour recevoir un code de vérification à usage unique.",
-    "actionButton": "Continuer",
-    "confirmActionButton": "Vérifier le code",
-    "resendCodeButton": "Renvoyer le code",
+    "authStartHeading": "Continuer avec votre e-mail",
+    "authStartDescription": "Saisissez votre adresse e-mail pour recevoir un code de vérification à usage unique.",
+    "authConfirmHeading": "Vérifiez votre adresse e-mail",
+    "authStartButton": "Continuer",
+    "authConfirmButton": "Vérifier le code",
+    "authResendButton": "Renvoyer le code",
     "resendCooldown": {
-        "remaining_one": "dans {{ count }} seconde.",
-        "remaining_other": "dans {{ count }} secondes."
+        "remaining_one": "dans {{count}} seconde.",
+        "remaining_other": "dans {{count}} secondes."
     }
 }
