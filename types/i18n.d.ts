@@ -1,17 +1,25 @@
 // AUTO-GENERATED FILE — DO NOT EDIT
 
 export interface I18nResources {
+    "accounts/auth-action-errors": {
+        "auth-client-not-exists": string;
+        "auth-limit-exceeded": string;
+        "code-mismatch": string;
+        "code-expired": string;
+        "auth-session-expired": string;
+        "user-already-confirmed": string;
+    };
     "accounts/auth-card": {
-        heading: string;
-        description: string;
-        actionButton: string;
-        confirmActionButton: string;
-        resendCodeButton: string;
+        authStartHeading: string;
+        authStartDescription: string;
+        authConfirmHeading: string;
+        authStartButton: string;
+        authConfirmButton: string;
+        authResendButton: string;
         resendCooldown: {
             remaining_one: string;
             remaining_other: string;
         };
-        invalidConfirmAuthActionCode: string;
     };
     "accounts/core": {
         "edit-profile": string;
