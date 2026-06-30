@@ -7,6 +7,5 @@
     "resendCooldown": {
         "remaining_one": "in {{ count }} second.",
         "remaining_other": "in {{ count }} seconds."
-    },
-    "invalidConfirmAuthActionCode": "Code should be between 6-8 digits"
+    }
 }
