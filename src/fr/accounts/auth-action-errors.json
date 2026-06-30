@@ -1,0 +1,8 @@
+{
+    "auth-client-not-exists": "L'application à laquelle vous essayez d'accéder est introuvable.",
+    "auth-limit-exceeded": "Trop de tentatives. Veuillez réessayer plus tard.",
+    "code-mismatch": "Le code de vérification est incorrect.",
+    "code-expired": "Le code de vérification a expiré.",
+    "auth-session-expired": "Votre session d'authentification a expiré. Veuillez recommencer.",
+    "user-already-confirmed": "Cette adresse e-mail a déjà été vérifiée."
+}

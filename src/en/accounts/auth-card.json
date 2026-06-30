@@ -1,9 +1,10 @@
 {
-    "heading": "Get Started",
-    "description": "Enter your email address to receive a one-time verification code.",
-    "actionButton": "Continue",
-    "confirmActionButton": "Verify code",
-    "resendCodeButton": "Resend code",
+    "authStartHeading": "Continue with email",
+    "authStartDescription": "Enter your email address to receive a one-time verification code.",
+    "authConfirmHeading": "Verify your email",
+    "authStartButton": "Continue",
+    "authConfirmButton": "Verify code",
+    "authResendButton": "Resend code",
     "resendCooldown": {
         "remaining_one": "in {{ count }} second.",
         "remaining_other": "in {{ count }} seconds."

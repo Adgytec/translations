@@ -1,0 +1,8 @@
+{
+    "auth-client-not-exists": "The application you're trying to access could not be found.",
+    "auth-limit-exceeded": "Too many attempts. Please try again later.",
+    "code-mismatch": "The verification code is incorrect.",
+    "code-expired": "The verification code has expired.",
+    "auth-session-expired": "Your authentication session has expired. Please start again.",
+    "user-already-confirmed": "This email address has already been verified."
+}
